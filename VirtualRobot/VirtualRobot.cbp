@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="VirtualRobot" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Option virtualFolders="All\;" />
+		<Build>
+			<Target title="Debug">
+				<Option output="..\Debug\libVirtualRobot" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="obj\Debug\" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="..\Release\libVirtualRobot" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="obj\Release\" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add directory="." />
+			<Add directory="$(MOOS_BASEPATH)\Core" />
+			<Add directory="C:\Source\FreeGLUT\include" />
+		</Compiler>
+		<Unit filename="BeeberConfigurationManager.cpp" />
+		<Unit filename="BeeberConfigurationManager.h" />
+		<Unit filename="BeeberDisplayCore.h" />
+		<Unit filename="BeeberException.h" />
+		<Unit filename="BeeberIPC.h" />
+		<Unit filename="BeeberMessage.cpp" />
+		<Unit filename="BeeberMessage.h" />
+		<Unit filename="BeeberMessageSerialization.cpp" />
+		<Unit filename="BeeberMessageSerialization.h" />
+		<Unit filename="BeeberNode.cpp" />
+		<Unit filename="BeeberNode.h" />
+		<Unit filename="BeeberSim.cpp" />
+		<Unit filename="BeeberSim.h" />
+		<Unit filename="BotLayer.cpp" />
+		<Unit filename="BotLayer.h" />
+		<Unit filename="CollisionAvoidance.cpp" />
+		<Unit filename="CollisionAvoidance.h" />
+		<Unit filename="ConfigurationManager.cpp" />
+		<Unit filename="ConfigurationManager.h" />
+		<Unit filename="Console.cpp" />
+		<Unit filename="Console.h" />
+		<Unit filename="Containers.h" />
+		<Unit filename="DisplayThread.cpp">
+			<Option virtualFolder="All\" />
+		</Unit>
+		<Unit filename="DisplayThread.h">
+			<Option virtualFolder="All\" />
+		</Unit>
+		<Unit filename="DisplayTypes.h" />
+		<Unit filename="Drawing.cpp" />
+		<Unit filename="Drawing.h" />
+		<Unit filename="EmotionsLayer.cpp" />
+		<Unit filename="EmotionsLayer.h" />
+		<Unit filename="Engine.cpp" />
+		<Unit filename="Engine.h" />
+		<Unit filename="Geometry.cpp" />
+		<Unit filename="Geometry.h" />
+		<Unit filename="GridLayer.cpp" />
+		<Unit filename="GridLayer.h" />
+		<Unit filename="HUDLayer.cpp" />
+		<Unit filename="HUDLayer.h" />
+		<Unit filename="Layer.cpp" />
+		<Unit filename="Layer.h" />
+		<Unit filename="MobileNode.cpp" />
+		<Unit filename="MobileNode.h" />
+		<Unit filename="ObstacleLayer.cpp" />
+		<Unit filename="ObstacleLayer.h" />
+		<Unit filename="ObstacleNode.cpp" />
+		<Unit filename="ObstacleNode.h" />
+		<Unit filename="RubberBandLayer.cpp" />
+		<Unit filename="RubberBandLayer.h" />
+		<Unit filename="Semaphore.cpp" />
+		<Unit filename="Semaphore.h" />
+		<Unit filename="SimulatorEngine.cpp" />
+		<Unit filename="SimulatorEngine.h" />
+		<Unit filename="SoundHelper.cpp" />
+		<Unit filename="SoundHelper.h" />
+		<Unit filename="Thread.cpp" />
+		<Unit filename="Thread.h" />
+		<Unit filename="TimeManagement.cpp" />
+		<Unit filename="TimeManagement.h" />
+		<Unit filename="VirtualRobot.cpp">
+			<Option virtualFolder="All\" />
+		</Unit>
+		<Unit filename="VirtualRobot.h">
+			<Option virtualFolder="All\" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

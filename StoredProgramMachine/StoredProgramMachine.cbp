@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="StoredProgramMachine" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Option virtualFolders="All/;" />
+		<Build>
+			<Target title="Debug">
+				<Option output="../Debug/StoredProgramMachine" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="../Release/StoredProgramMachine" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="CPU.cpp">
+			<Option virtualFolder="All/" />
+		</Unit>
+		<Unit filename="CPU.h">
+			<Option virtualFolder="All/" />
+		</Unit>
+		<Unit filename="Instruction.cpp">
+			<Option virtualFolder="All/" />
+		</Unit>
+		<Unit filename="Instruction.h">
+			<Option virtualFolder="All/" />
+		</Unit>
+		<Unit filename="MemoryUnit.cpp">
+			<Option virtualFolder="All/" />
+		</Unit>
+		<Unit filename="MemoryUnit.h">
+			<Option virtualFolder="All/" />
+		</Unit>
+		<Unit filename="Parser.cpp">
+			<Option virtualFolder="All/" />
+		</Unit>
+		<Unit filename="Parser.h">
+			<Option virtualFolder="All/" />
+		</Unit>
+		<Unit filename="main.cpp">
+			<Option virtualFolder="All/" />
+		</Unit>
+		<Unit filename="test.spc">
+			<Option virtualFolder="All/" />
+		</Unit>
+		<Unit filename="test2a.spc">
+			<Option virtualFolder="All/" />
+		</Unit>
+		<Unit filename="test2b.spc">
+			<Option virtualFolder="All/" />
+		</Unit>
+		<Unit filename="test3.spc">
+			<Option virtualFolder="All/" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+			<debugger />
+			<envvars />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
